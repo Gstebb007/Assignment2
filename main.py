@@ -89,7 +89,7 @@ def main():
             print(f"Cost per class: {per_class:.2f}")
         elif choice == "6":
             per_second = cost_per_second(annual_cost)
-            print(f"Cost per second: {per_second:.2f}")
+            print(f"Cost per second: {per_second:.4f}")
         else:
             print("Invalid option. Please try again.")
 
